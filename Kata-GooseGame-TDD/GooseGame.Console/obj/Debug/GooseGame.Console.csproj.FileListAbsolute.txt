@@ -1,0 +1,16 @@
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-CS-BDD\GooseGame.Console\bin\Debug\GooseGame.Console.exe.config
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-CS-BDD\GooseGame.Console\bin\Debug\GooseGame.Console.exe
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-CS-BDD\GooseGame.Console\bin\Debug\GooseGame.Console.pdb
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-CS-BDD\GooseGame.Console\obj\Debug\GooseGame.Console.exe
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-CS-BDD\GooseGame.Console\obj\Debug\GooseGame.Console.pdb
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-CS-BDD\GooseGame.Console\bin\Debug\GooseGame.Business.dll
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-CS-BDD\GooseGame.Console\bin\Debug\GooseGame.Business.pdb
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-CS-BDD\GooseGame.Console\obj\Debug\GooseGame.Console.csprojResolveAssemblyReference.cache
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Console\bin\Debug\GooseGame.Console.exe.config
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Console\bin\Debug\GooseGame.Console.exe
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Console\bin\Debug\GooseGame.Console.pdb
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Console\bin\Debug\GooseGame.Business.dll
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Console\bin\Debug\GooseGame.Business.pdb
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Console\obj\Debug\GooseGame.Console.csprojResolveAssemblyReference.cache
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Console\obj\Debug\GooseGame.Console.exe
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Console\obj\Debug\GooseGame.Console.pdb

@@ -1,0 +1,10 @@
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-CS-BDD\GooseGame.Business\bin\Debug\GooseGame.Business.dll
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-CS-BDD\GooseGame.Business\bin\Debug\GooseGame.Business.pdb
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-CS-BDD\GooseGame.Business\obj\Debug\GooseGame.Business.dll
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-CS-BDD\GooseGame.Business\obj\Debug\GooseGame.Business.pdb
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-CS-BDD\GooseGame.Business\obj\Debug\GooseGame.Business.csprojResolveAssemblyReference.cache
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Business\bin\Debug\GooseGame.Business.dll
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Business\bin\Debug\GooseGame.Business.pdb
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Business\obj\Debug\GooseGame.Business.csprojResolveAssemblyReference.cache
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Business\obj\Debug\GooseGame.Business.dll
+C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Business\obj\Debug\GooseGame.Business.pdb
