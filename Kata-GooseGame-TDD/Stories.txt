@@ -1,0 +1,23 @@
+DONE:
+
+1. Come giocatore, voglio aggiungermi al gioco per poter giocare.
+AC1.1 Se non c’è nessun partecipante L’utente sceglie “aggiungi giocatore Pippo” Il sistema risponde: “Giocatori: Pippo” 
+AC1.2 L’utente sceglie “aggiungi giocatore Pluto”  Il sistema risponde: “Giocatori: Pippo, Pluto”
+AC1.3 Se c’è già un partecipante “Pippo” L’utente sceglie “aggiungi giocatore Pippo” Il sistema risponde: “Pippo: giocatore già presente”.
+
+2. Come giocatore, voglio muovere il segnalino sulla mappa per fare progredire il gioco
+AC2.1 Se ci sono due partecipanti Pippo e Pluto, su “Partenza” 
+   L’utente sceglie “muovi Pippo 4, 2”  Il sistema risponde: “Pippo tira 4, 2. Pippo muove da Partenza a 6 “. 
+   L’utente sceglie “muovi Pluto 2, 2”  Il sistema risponde: “Pluto tira 2, 2. Pluto muove da Partenza a 4” 
+   L’utente sceglie “muovi Pippo 2, 3”  Il sistema risponde: “Pippo tira 2, 3. Pippo muove da 6 a 11”
+
+3. Come giocatore,vinco il gioco se arrivo a “63”
+AC3.1 - vittoria 
+   Se c’è un partecipante Pippo su 60 L’utente sceglie “muovi Pippo 1, 2” Il sistema risponde: “Pippo tira 1, 2. Pippo muove da 60 a 63.Pippo vince!!”
+
+
+TODO
+
+AC3.2 - arrivare con il tiro esatto 
+   Se c’è un partecipante Pippo su 60 L’utente sceglie “muovi Pippo 3, 2” Il sistema risponde: “Pippo tira 3, 2. Pippo muove da 60 a63. Pippo Rimbalza! Pippo torna a 61”
+
