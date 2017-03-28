@@ -1,0 +1,11 @@
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console.Tests\bin\Debug\GooseGame.Console.Tests.dll
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console.Tests\bin\Debug\GooseGame.Console.Tests.pdb
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console.Tests\obj\Debug\GooseGame.Console.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console.Tests\obj\Debug\GooseGame.Console.Tests.dll
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console.Tests\obj\Debug\GooseGame.Console.Tests.pdb
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console.Tests\bin\Debug\GooseGame.Business.dll
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console.Tests\bin\Debug\GooseGame.Console.exe
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console.Tests\bin\Debug\GooseGame.Business.pdb
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console.Tests\bin\Debug\GooseGame.Console.pdb

@@ -40,7 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commander.cs" />
     <Compile Include="DiceRoller.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="IGooseGame.cs" />

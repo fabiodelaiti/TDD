@@ -21,7 +21,13 @@ namespace GooseGame.WinForm
 
         private void btnAddPlayer_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(_gooseGame.AddPlayer(txtPlayer.Text));
+            txtLog.AppendText(_gooseGame.AddPlayer(txtPlayer.Text));
+        }
+
+        private void btnMove_Click(object sender, EventArgs e)
+        {
+            txtLog.AppendText(_gooseGame.Move(txtPlayer.Text, int.Parse(txtDice1.Text), int.Parse(txtDice2.Text)));
+            txtLog.AppendText("\r\n");
         }
     }
 }

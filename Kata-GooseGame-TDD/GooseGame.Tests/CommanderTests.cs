@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GooseGame.Console;
 
 namespace GooseGame.Tests
 {
@@ -42,6 +43,18 @@ namespace GooseGame.Tests
         {
             _commander.Do("muovi Pippo");
             Assert.AreEqual("MovePippo", ((MockGame)_mockGame).Verification);
+        }
+
+        [TestMethod]
+        public void MuoviSoloDado()
+        {
+            Assert.AreEqual("Istruzione non riconosciuta", _commander.Do("muovi Pippo 1"));
+        }
+
+        [TestMethod]
+        public void AggiungiSenzaGiocatore()
+        {
+            Assert.AreEqual("Istruzione non riconosciuta", _commander.Do("aggiungi Pippo"));
         }
     }
 

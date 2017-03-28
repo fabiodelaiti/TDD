@@ -30,13 +30,18 @@
         {
             this.btnAddPlayer = new System.Windows.Forms.Button();
             this.txtPlayer = new System.Windows.Forms.TextBox();
+            this.txtLog = new System.Windows.Forms.TextBox();
+            this.btnMove = new System.Windows.Forms.Button();
+            this.txtDice1 = new System.Windows.Forms.TextBox();
+            this.txtDice2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnAddPlayer
             // 
-            this.btnAddPlayer.Location = new System.Drawing.Point(19, 22);
+            this.btnAddPlayer.Location = new System.Drawing.Point(25, 27);
+            this.btnAddPlayer.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddPlayer.Name = "btnAddPlayer";
-            this.btnAddPlayer.Size = new System.Drawing.Size(108, 28);
+            this.btnAddPlayer.Size = new System.Drawing.Size(144, 34);
             this.btnAddPlayer.TabIndex = 0;
             this.btnAddPlayer.Text = "Aggiungi Giocatore";
             this.btnAddPlayer.UseVisualStyleBackColor = true;
@@ -44,18 +49,59 @@
             // 
             // txtPlayer
             // 
-            this.txtPlayer.Location = new System.Drawing.Point(145, 26);
+            this.txtPlayer.Location = new System.Drawing.Point(248, 33);
+            this.txtPlayer.Margin = new System.Windows.Forms.Padding(4);
             this.txtPlayer.Name = "txtPlayer";
-            this.txtPlayer.Size = new System.Drawing.Size(126, 20);
+            this.txtPlayer.Size = new System.Drawing.Size(167, 22);
             this.txtPlayer.TabIndex = 1;
+            // 
+            // txtLog
+            // 
+            this.txtLog.Location = new System.Drawing.Point(-2, 136);
+            this.txtLog.Multiline = true;
+            this.txtLog.Name = "txtLog";
+            this.txtLog.Size = new System.Drawing.Size(570, 182);
+            this.txtLog.TabIndex = 2;
+            // 
+            // btnMove
+            // 
+            this.btnMove.Location = new System.Drawing.Point(25, 69);
+            this.btnMove.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMove.Name = "btnMove";
+            this.btnMove.Size = new System.Drawing.Size(144, 34);
+            this.btnMove.TabIndex = 3;
+            this.btnMove.Text = "Muovi Giocatore";
+            this.btnMove.UseVisualStyleBackColor = true;
+            this.btnMove.Click += new System.EventHandler(this.btnMove_Click);
+            // 
+            // txtDice1
+            // 
+            this.txtDice1.Location = new System.Drawing.Point(248, 69);
+            this.txtDice1.Margin = new System.Windows.Forms.Padding(4);
+            this.txtDice1.Name = "txtDice1";
+            this.txtDice1.Size = new System.Drawing.Size(41, 22);
+            this.txtDice1.TabIndex = 1;
+            // 
+            // txtDice2
+            // 
+            this.txtDice2.Location = new System.Drawing.Point(297, 69);
+            this.txtDice2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtDice2.Name = "txtDice2";
+            this.txtDice2.Size = new System.Drawing.Size(41, 22);
+            this.txtDice2.TabIndex = 1;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(339, 261);
+            this.ClientSize = new System.Drawing.Size(567, 321);
+            this.Controls.Add(this.btnMove);
+            this.Controls.Add(this.txtLog);
+            this.Controls.Add(this.txtDice2);
+            this.Controls.Add(this.txtDice1);
             this.Controls.Add(this.txtPlayer);
             this.Controls.Add(this.btnAddPlayer);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -67,6 +113,10 @@
 
         private System.Windows.Forms.Button btnAddPlayer;
         private System.Windows.Forms.TextBox txtPlayer;
+        private System.Windows.Forms.TextBox txtLog;
+        private System.Windows.Forms.Button btnMove;
+        private System.Windows.Forms.TextBox txtDice1;
+        private System.Windows.Forms.TextBox txtDice2;
     }
 }
 

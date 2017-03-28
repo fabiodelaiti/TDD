@@ -37,7 +37,8 @@ namespace GooseGame.Business
             var player = _players.Single(p => p.Name==name);
             var previousPosition = player.PositionName;
             player.Position += (lancio1 + lancio2);
-
+            if (player.Position >= 63)
+                return $"{player.Name} vince!!";
             return $"{player.Name} tira {lancio1}, {lancio2}. {player.Name} muove da {previousPosition} a {player.Position}";
         }
 

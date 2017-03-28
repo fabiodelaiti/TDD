@@ -14,3 +14,11 @@ C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\Go
 C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Console\obj\Debug\GooseGame.Console.csprojResolveAssemblyReference.cache
 C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Console\obj\Debug\GooseGame.Console.exe
 C:\Users\Andy\Documents\Visual Studio 2017\Projects\GitHub\Kata-GooseGame-TDD\GooseGame.Console\obj\Debug\GooseGame.Console.pdb
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console\bin\Debug\GooseGame.Console.exe.config
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console\bin\Debug\GooseGame.Console.exe
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console\bin\Debug\GooseGame.Console.pdb
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console\bin\Debug\GooseGame.Business.dll
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console\bin\Debug\GooseGame.Business.pdb
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console\obj\Debug\GooseGame.Console.csprojResolveAssemblyReference.cache
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console\obj\Debug\GooseGame.Console.exe
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.Console\obj\Debug\GooseGame.Console.pdb

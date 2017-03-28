@@ -23,7 +23,7 @@ namespace GooseGame.Tests
         /// aggiunta giocatore Se non c’è nessun partecipante L’utente sceglie “aggiungi giocatore Pippo” Il sistema risponde: “Giocatori: Pippo” 
         /// </summary>
         [TestMethod]
-        public void ExistingPlayersAddPlayer()
+        public void ExistingPlayerAddNewPlayer()
         {
             Game game = new Game();
             game.AddPlayer("Pippo");
@@ -37,17 +37,19 @@ namespace GooseGame.Tests
         [TestMethod]
         public void AddExistingPlayer()
         {
-            Game game = new Game();
-            game.AddPlayer("Pippo");
-            var message = game.AddPlayer("Pippo");
+            var giocatore = "Pippo";
+            var game = NewGameWithPlayer(giocatore);
+            var message = game.AddPlayer(giocatore);
             Assert.AreEqual("Pippo: giocatore gia' presente", message);
         }
+
        
+
         [TestMethod]
         public void MovePlayerPippoFromStart()
         {
-            Game game = new Game();
-            game.AddPlayer("Pippo");
+            var giocatore = "Pippo";
+            var game = NewGameWithPlayer(giocatore);
             var message = game.Move ("Pippo", 4,2);
             Assert.AreEqual("Pippo tira 4, 2. Pippo muove da Partenza a 6", message);
         }
@@ -55,8 +57,8 @@ namespace GooseGame.Tests
         [TestMethod]
         public void MovePlayerPlutoFromStart()
         {
-            Game game = new Game();
-            game.AddPlayer("Pluto");
+            var giocatore = "Pluto";
+            var game = NewGameWithPlayer(giocatore);
             var message = game.Move("Pluto", 2, 2);
             Assert.AreEqual("Pluto tira 2, 2. Pluto muove da Partenza a 4", message);
         }
@@ -64,35 +66,71 @@ namespace GooseGame.Tests
         [TestMethod]
         public void MovePlayerPippoFromNonStart()
         {
-            Game game = new Game();
-            game.AddPlayer("Pippo");
-            game.Move("Pippo", 4, 2);
-            var message = game.Move("Pippo", 2, 3);
+            var giocatore = "Pippo";
+            var game = NewGameWithPlayer(giocatore);
+            game.Move(giocatore, 4, 2);
+            var message = game.Move(giocatore, 2, 3);
             Assert.AreEqual("Pippo tira 2, 3. Pippo muove da 6 a 11", message);
         }
 
         [TestMethod]
         public void MovePlayerWithAutoRoller1_2()
         {
+            var giocatore = "Pippo";
             MockDiceRoller dr = new MockDiceRoller(1,2);
-            Game game = new Game(dr);
-            game.AddPlayer("Pippo");
-            game.Move("Pippo", 4, 0);
-            var message = game.Move("Pippo");
+            var game = NewGameWithPlayer(giocatore, dr);
+            game.Move(giocatore, 4, 0);
+            var message = game.Move(giocatore);
             Assert.AreEqual("Pippo tira 1, 2. Pippo muove da 4 a 7", message);
         }
+
 
         [TestMethod]
         public void MovePlayerWithAutoRoller1_1()
         {
+            var giocatore = "Pippo";
             MockDiceRoller dr = new MockDiceRoller(1, 1);
             Game game = new Game(dr);
-            game.AddPlayer("Pippo");
-            game.Move("Pippo", 4, 0);
-            var message = game.Move("Pippo");
+            game.AddPlayer(giocatore);
+            game.Move(giocatore, 4, 0);
+            var message = game.Move(giocatore);
             Assert.AreEqual("Pippo tira 1, 1. Pippo muove da 4 a 6", message);
         }
-     
+
+        [TestMethod]
+        public void MovePippoTo63()
+        {
+            Game game = new Game();
+            var giocatore = "Pippo";
+            game.AddPlayer(giocatore);
+            game.Move(giocatore, 60, 1);
+            var message = game.Move(giocatore, 1, 1);
+            Assert.AreEqual("Pippo vince!!", message);
+        }
+
+        [TestMethod]
+        public void MovePlutoTo63()
+        {
+            var giocatore = "Pluto";
+            Game game = new Game();
+            game.AddPlayer(giocatore);
+            var message = game.Move(giocatore, 63, 0);
+            Assert.AreEqual("Pluto vince!!", message);
+        }
+
+        private static Game NewGameWithPlayer(string giocatore)
+        {
+            Game game = new Game();
+            game.AddPlayer(giocatore);
+            return game;
+        }
+
+        private static Game NewGameWithPlayer(string giocatore, MockDiceRoller dr)
+        {
+            Game game = new Game(dr);
+            game.AddPlayer(giocatore);
+            return game;
+        }
 
         private class MockDiceRoller :DiceRoller
         {

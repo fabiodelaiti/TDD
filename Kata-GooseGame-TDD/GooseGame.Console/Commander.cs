@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using GooseGame.Business;
 
-namespace GooseGame.Business
+namespace GooseGame.Console
 {
     public class Commander
     {
@@ -25,14 +21,17 @@ namespace GooseGame.Business
             if (input.StartsWith("muovi"))
             {
                 var nomeGiocatoreConLanci = input.Substring("muovi".Length).TrimStart();
-                var tokens = nomeGiocatoreConLanci.Split(' ',',');
-                if (tokens.Length ==1)
-                    return _game.Move(tokens[0]);
-
-                return _game.Move(tokens[0], int.Parse(tokens[1]),int.Parse(tokens[3]));
+                var regEx = new System.Text.RegularExpressions.Regex(@"(?<name>[a-zA-Z]+)|(?<dice>[\d])");
+                var matches = regEx.Matches(nomeGiocatoreConLanci);
+             
+                if (matches.Count==3)
+                    return _game.Move(matches[0].Value, int.Parse(matches[1].Value),int.Parse(matches[2].Value));
+                if (matches.Count == 1)
+                    return _game.Move(matches[0].Value);
 
             }
-            return null;
+           
+            return "Istruzione non riconosciuta";
         }
     }
 }
