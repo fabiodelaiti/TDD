@@ -16,7 +16,7 @@ namespace GooseGame.Tests
         {
             Game game = new Game();
             var message  = game.AddPlayer("Pippo");
-            Assert.AreEqual( "Giocatori: Pippo", message);
+            Assert.AreEqual( "Giocatori: Pippo", message, "Add new Player Failed");
         }
 
         /// <summary>
@@ -28,7 +28,7 @@ namespace GooseGame.Tests
             Game game = new Game();
             game.AddPlayer("Pippo");
             var message = game.AddPlayer("Pluto");
-            Assert.AreEqual("Giocatori: Pippo, Pluto", message);
+            Assert.AreEqual("Giocatori: Pippo, Pluto", message, "Add second Player Failed");
         }
 
         /// <summary>
@@ -40,7 +40,7 @@ namespace GooseGame.Tests
             var giocatore = "Pippo";
             var game = NewGameWithPlayer(giocatore);
             var message = game.AddPlayer(giocatore);
-            Assert.AreEqual("Pippo: giocatore gia' presente", message);
+            Assert.AreEqual("Pippo: giocatore gia' presente", message, "Add existing Player Failed");
         }
 
        
@@ -51,7 +51,7 @@ namespace GooseGame.Tests
             var giocatore = "Pippo";
             var game = NewGameWithPlayer(giocatore);
             var message = game.Move ("Pippo", 4,2);
-            Assert.AreEqual("Pippo tira 4, 2. Pippo muove da Partenza a 6", message);
+            Assert.AreEqual("Pippo tira 4, 2. Pippo muove da Partenza a 6", message, "Move Player 4,2 From Start Failed");
         }
 
         [TestMethod]
@@ -60,7 +60,7 @@ namespace GooseGame.Tests
             var giocatore = "Pluto";
             var game = NewGameWithPlayer(giocatore);
             var message = game.Move("Pluto", 2, 2);
-            Assert.AreEqual("Pluto tira 2, 2. Pluto muove da Partenza a 4", message);
+            Assert.AreEqual("Pluto tira 2, 2. Pluto muove da Partenza a 4", message, "Move Player 2,2 From Start Failed");
         }
 
         [TestMethod]
@@ -70,7 +70,7 @@ namespace GooseGame.Tests
             var game = NewGameWithPlayer(giocatore);
             game.Move(giocatore, 4, 2);
             var message = game.Move(giocatore, 2, 3);
-            Assert.AreEqual("Pippo tira 2, 3. Pippo muove da 6 a 11", message);
+            Assert.AreEqual("Pippo tira 2, 3. Pippo muove da 6 a 11", message, "Move Player From Not Start Failed");
         }
 
         [TestMethod]
@@ -81,7 +81,7 @@ namespace GooseGame.Tests
             var game = NewGameWithPlayer(giocatore, dr);
             game.Move(giocatore, 4, 0);
             var message = game.Move(giocatore);
-            Assert.AreEqual("Pippo tira 1, 2. Pippo muove da 4 a 7", message);
+            Assert.AreEqual("Pippo tira 1, 2. Pippo muove da 4 a 7", message, "Move Player From Not Start Failed");
         }
 
 
@@ -94,7 +94,7 @@ namespace GooseGame.Tests
             game.AddPlayer(giocatore);
             game.Move(giocatore, 4, 0);
             var message = game.Move(giocatore);
-            Assert.AreEqual("Pippo tira 1, 1. Pippo muove da 4 a 6", message);
+            Assert.AreEqual("Pippo tira 1, 1. Pippo muove da 4 a 6", message, "Move Player With automatic Dice Rolling Failed");
         }
 
         [TestMethod]
@@ -105,7 +105,7 @@ namespace GooseGame.Tests
             game.AddPlayer(giocatore);
             game.Move(giocatore, 60, 1);
             var message = game.Move(giocatore, 1, 1);
-            Assert.AreEqual("Pippo vince!!", message);
+            Assert.AreEqual("Pippo vince!!", message, "Move Pippo To last Tile Failed");
         }
 
         [TestMethod]
@@ -115,7 +115,7 @@ namespace GooseGame.Tests
             Game game = new Game();
             game.AddPlayer(giocatore);
             var message = game.Move(giocatore, 63, 0);
-            Assert.AreEqual("Pluto vince!!", message);
+            Assert.AreEqual("Pluto vince!!", "Move Pippo To last Tile Failed");
         }
 
         private static Game NewGameWithPlayer(string giocatore)

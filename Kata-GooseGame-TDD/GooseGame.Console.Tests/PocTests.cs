@@ -1,6 +1,4 @@
-﻿using System;
-using System.Diagnostics;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace GooseGame.Tests
@@ -12,13 +10,13 @@ namespace GooseGame.Tests
         public void PocRegEx()
         {
             var str = "Nome 5, 1";
-            System.Text.RegularExpressions.Regex r = null;
+            Regex r = null;
 
-            r = new System.Text.RegularExpressions.Regex(@"(?<name>[a-zA-Z]+)|(?<Dice>[\d])");
+            r = new Regex(@"(?<name>[a-zA-Z]+)|(?<Dice>[\d])");
             var matches = r.Matches(str);
-            Assert.AreEqual("Nome",  matches[0].Value);
-            Assert.AreEqual("5", matches[1].Value);
-            Assert.AreEqual("1", matches[2].Value);
+            Assert.AreEqual("Nome",  matches[0].Value, "RegEx doesen't match Name");
+            Assert.AreEqual("5", matches[1].Value, "RegEx doesen't match first Dice");
+            Assert.AreEqual("1", matches[2].Value, "RegEx doesen't match second Dice");
 
         }
     }
