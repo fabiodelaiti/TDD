@@ -20,35 +20,35 @@ namespace GooseGame.Console.Tests
         [TestMethod]
         public void AggiungiGocatoreCallsGameAdd()
         {
-            _commander.Do("aggiungi giocatore Pippo");
-            Assert.AreEqual("AddPippo",((MockGame)_mockGame).Verification);
+            _commander.Istruzione("aggiungi giocatore Pippo");
+            Assert.AreEqual("AddPippo",((MockGame)_mockGame).Verification, "game.AddPlayer(player) not called");
         }
 
         [TestMethod]
         public void MuoviGocatoreconLanciCallsGameMoveConLanci()
         {
 
-            _commander.Do("muovi Pippo 4, 2");
-            Assert.AreEqual("MovePippo42", ((MockGame)_mockGame).Verification);
+            _commander.Istruzione("muovi Pippo 4, 2");
+            Assert.AreEqual("MovePippo42", ((MockGame)_mockGame).Verification, "game.Move(player, a, b) not called");
         }
 
         [TestMethod]
         public void MuoviGocatoreCallsGameMove()
         {
-            _commander.Do("muovi Pippo");
-            Assert.AreEqual("MovePippo", ((MockGame)_mockGame).Verification);
+            _commander.Istruzione("muovi Pippo");
+            Assert.AreEqual("MovePippo", ((MockGame)_mockGame).Verification, "game.Move(player) not called");
         }
 
         [TestMethod]
         public void MuoviSoloDado()
         {
-            Assert.AreEqual("Istruzione non riconosciuta", _commander.Do("muovi Pippo 1"));
+            Assert.AreEqual("Istruzione non riconosciuta", _commander.Istruzione("muovi Pippo 1"), "unrecognized istruction recognized");
         }
 
         [TestMethod]
         public void AggiungiSenzaGiocatore()
         {
-            Assert.AreEqual("Istruzione non riconosciuta", _commander.Do("aggiungi Pippo"));
+            Assert.AreEqual("Istruzione non riconosciuta", _commander.Istruzione("aggiungi Pippo"), "unrecognized istruction recognized");
         }
     }
 

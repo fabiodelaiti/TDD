@@ -16,7 +16,7 @@ namespace GooseGame.Console
             while (true)
             {
                 var input = System.Console.ReadLine();
-                var ret = commander.Do(input);
+                var ret = commander.Istruzione(input);
                 System.Console.WriteLine(ret);
               
             }

@@ -10,7 +10,7 @@ namespace GooseGame.Console
             _game = game;
         }
 
-        public string Do(string input)
+        public string Istruzione(string input)
         {
             if (input.StartsWith("aggiungi giocatore"))
             {
