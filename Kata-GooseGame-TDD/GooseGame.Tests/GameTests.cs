@@ -115,7 +115,7 @@ namespace GooseGame.Tests
             Game game = new Game();
             game.AddPlayer(giocatore);
             var message = game.Move(giocatore, 63, 0);
-            Assert.AreEqual("Pluto vince!!", "Move Pippo To last Tile Failed");
+            Assert.AreEqual("Pluto vince!!", message, "Move Pippo To last Tile Failed");
         }
 
         private static Game NewGameWithPlayer(string giocatore)
