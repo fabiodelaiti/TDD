@@ -31,3 +31,14 @@ C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-Goose
 C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.WinForm\obj\Debug\GooseGame.WinForm.csproj.GenerateResource.Cache
 C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.WinForm\obj\Debug\GooseGame.WinForm.exe
 C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Training\TDD\TDD\Kata-GooseGame-TDD\GooseGame.WinForm\obj\Debug\GooseGame.WinForm.pdb
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\Kata-GooseGame-TDD\GooseGame.WinForm\bin\Debug\GooseGame.WinForm.exe.config
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\Kata-GooseGame-TDD\GooseGame.WinForm\bin\Debug\GooseGame.WinForm.exe
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\Kata-GooseGame-TDD\GooseGame.WinForm\bin\Debug\GooseGame.WinForm.pdb
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\Kata-GooseGame-TDD\GooseGame.WinForm\bin\Debug\GooseGame.Business.dll
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\Kata-GooseGame-TDD\GooseGame.WinForm\bin\Debug\GooseGame.Business.pdb
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\Kata-GooseGame-TDD\GooseGame.WinForm\obj\Debug\GooseGame.WinForm.csprojResolveAssemblyReference.cache
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\Kata-GooseGame-TDD\GooseGame.WinForm\obj\Debug\GooseGame.WinForm.Form1.resources
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\Kata-GooseGame-TDD\GooseGame.WinForm\obj\Debug\GooseGame.WinForm.Properties.Resources.resources
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\Kata-GooseGame-TDD\GooseGame.WinForm\obj\Debug\GooseGame.WinForm.csproj.GenerateResource.Cache
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\Kata-GooseGame-TDD\GooseGame.WinForm\obj\Debug\GooseGame.WinForm.exe
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\Kata-GooseGame-TDD\GooseGame.WinForm\obj\Debug\GooseGame.WinForm.pdb

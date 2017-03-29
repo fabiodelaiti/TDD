@@ -48,10 +48,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommanderTests.cs" />
     <Compile Include="GameTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnitTest1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -63,10 +61,6 @@
     <ProjectReference Include="..\GooseGame.Business\GooseGame.Business.csproj">
       <Project>{C8DDFA6A-250C-43C3-885A-903A8179963F}</Project>
       <Name>GooseGame.Business</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GooseGame.Console\GooseGame.Console.csproj">
-      <Project>{789BF185-5D95-4E79-B57A-DB463C479150}</Project>
-      <Name>GooseGame.Console</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace GooseGame.Tests
 {
     [TestClass]
-    public class Poc
+    public class PocTests
     {
         [TestMethod]
         public void PocRegEx()
