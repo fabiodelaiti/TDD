@@ -1,2 +1,10 @@
 c:\users\a730551\documents\visual studio 2015\Projects\LegacyWinFormApplication\LegacyWinFormApplication\bin\Debug\LegacyWinFormApplication.exe.config
 C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\LegacyWinFormApplication\LegacyWinFormApplication\bin\Debug\LegacyWinFormApplication.exe.config
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\LegacyWinFormApplication\LegacyWinFormApplication\bin\Debug\LegacyWinFormApplication.exe
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\LegacyWinFormApplication\LegacyWinFormApplication\bin\Debug\LegacyWinFormApplication.pdb
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\LegacyWinFormApplication\LegacyWinFormApplication\obj\Debug\LegacyWinFormApplication.csprojResolveAssemblyReference.cache
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\LegacyWinFormApplication\LegacyWinFormApplication\obj\Debug\LegacyWinFormApplication.Form1.resources
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\LegacyWinFormApplication\LegacyWinFormApplication\obj\Debug\LegacyWinFormApplication.Properties.Resources.resources
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\LegacyWinFormApplication\LegacyWinFormApplication\obj\Debug\LegacyWinFormApplication.csproj.GenerateResource.Cache
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\LegacyWinFormApplication\LegacyWinFormApplication\obj\Debug\LegacyWinFormApplication.exe
+C:\Users\a730551\Documents\Visual Studio 2015\GITHUB\TDD\TDD\LegacyWinFormApplication\LegacyWinFormApplication\obj\Debug\LegacyWinFormApplication.pdb

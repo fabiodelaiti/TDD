@@ -8,22 +8,29 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LegacyWinFormApplication.Properties
-{
-
-
+namespace LegacyWinFormApplication.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=""C:\USERS\A730551\DOCUMENTS\VISUAL STUDIO 2015\GITHUB\TDD\TDD\LEGACYWINFORMAPPLICATION\LEGACYWINFORMAPPLICATION\DATA\LOCALDB.MDF"";Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True")]
+        public string C__USERS_A730551_DOCUMENTS_VISUAL_STUDIO_2015_GITHUB_TDD_TDD_LEGACYWINFORMAPPLICATION_LEGACYWINFORMAPPLICATION_DATA_LOCALDB_MDFConnectionString {
+            get {
+                return ((string)(this["C__USERS_A730551_DOCUMENTS_VISUAL_STUDIO_2015_GITHUB_TDD_TDD_LEGACYWINFORMAPPLICA" +
+                    "TION_LEGACYWINFORMAPPLICATION_DATA_LOCALDB_MDFConnectionString"]));
             }
         }
     }
